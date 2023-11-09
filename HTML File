@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Monitor</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <div class="left-container">
+      <h3 id="result">Your Result</h3>
+      <div class="number">
+        <h1 id="number1">76</h1>
+        <h1 id="number2">of 100</h1>
+    
+      </div>
+      <div class="result-category">
+        <h2 id="category">Great</h2>
+        <p id="score-paragraf">You Scored higher than 65% of <br> people who have taken <br>these test</p></div>
+    </div>
+
+    <div class="right-container">
+      <h3>Summary</h3>
+      <div class="right-content">
+      <div id="reaction">
+        <img class="logo" src="images/icon-reaction.svg" alt="">
+        <p class="tittle">Reaction</p>
+        <p class="result">80 <span class="per">/ 100</span></p>
+        </div>
+      <div id="memory">
+        <img class="logo" src="images/icon-memory.svg" alt="">
+        <p class="tittle">Memory</p>
+        <p class="result">92 <span class="per">/ 100</span></p>
+        </div>
+        <div id="verbal">
+          <img class="logo" src="images/icon-verbal.svg" alt="">
+          <p class="tittle">Verbal</p>
+          <p class="result">61 <span class="per">/ 100</span></p>
+        </div>
+      <div id="visual">
+        <img class="logo" src="images/icon-visual.svg" alt="">
+        <p class="tittle">Visual</p>
+        <p class="result">72 <span class="per">/ 100</span></p>
+      </div>
+      </div>
+      
+      <div id="button">
+        <button>Continue</button>
+      </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>

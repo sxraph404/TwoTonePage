@@ -1,0 +1,160 @@
+body{
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+p{
+  font-size: 18px;
+}
+h3{
+  font-size: 30px;
+  font-weight: 700px;
+}
+
+.container{
+  display: grid;
+  width: 850px;
+  grid-template-columns: 1fr 1fr;
+  background: white;
+  border-radius: 30px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+.left-container{
+  background-image: linear-gradient(to top, rgb(69,18,234), rgba(94,50,236));
+  color: white;
+  border-radius: 30px;
+  text-align: center;
+  padding-top: 20px;
+  float: left;
+}
+
+.right-container{
+  margin-left: 40px;
+  padding-top: 20px;
+  position: relative;
+  left: -20px;
+}
+
+#result{
+  color: white;
+  opacity: 0.5;
+}
+
+#score-paragraf{
+  color: white;
+  opacity: 0.5;
+}
+
+.number{
+  margin-top:-10px;
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgb(71, 37, 165),hsla(241, 100%, 50%, 0));
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#number1{
+  font-size: 70px;
+  margin-bottom: 0px;
+  padding-top: 40px;
+}
+
+#number2{
+  font-size: 17px;
+  position: relative;
+  bottom: 20px;
+  opacity: 0.5;
+}
+
+.result-category{
+  padding-top: -2px;
+}
+
+#category{
+  font-size: 30px;
+  font-style: capit;
+}
+
+#score-paragraf{
+  position: relative;
+  top: -10px;
+}
+
+.right-content{
+  display: grid;
+  row-gap: 20px;
+}
+
+#reaction, #memory, #verbal, #visual{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+ .logo{
+  position: relative;
+  left: -20px;
+}
+
+.tittle{
+  position: relative;
+  left: -80px;
+}
+
+.result, .per{
+  color: black;
+}
+.result{
+  opacity: 0.6;
+}
+.per{
+  opacity: 0.3;
+}
+
+#reaction{
+  background-color: hsl(0, 100%, 97%);
+  color:  hsl(0, 100%, 80%);
+}
+
+#memory{
+  background-color: hsl(39, 100%, 97%);
+  color: hsl(39, 100%, 70%);
+}
+
+#verbal{
+  background-color: hsl(166, 100%, 97%);
+  color: hsl(166, 100%, 40%); ;
+}
+
+#visual{
+  background-color: hsl(234, 85%, 97%);
+  color: hsl(234, 85%, 75%);
+}
+
+button{
+  border: none;
+  font-weight: 700;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 45px 2px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 30px;
+}
+
